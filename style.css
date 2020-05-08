@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #1E90FF;
+    
+}
+.nav1{
+    flex: 1;
+}
+
+.nav2{
+    flex: 2;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+}
+.nav3{
+    flex: 1;
+    align-items: center;
+
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.social > img{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    
+}
+
+.social i {
+    padding: 10px;
+    color: #fff;
+    /* font-size: 14px; */
+}
+.social i:hover {
+    background-color: #1E90FF;
+    cursor: progress;
+}
+.nav3 button{
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #008000;
+    color: #008000;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.section{
+    display:flex;
+    background-color:lightcyan;
+    max-width: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+
+}
+
+
+.sub-menu{
+    display: none ;
+     /* margin: 10px;
+     padding: 10px; */
+}
+.section .menu span:hover .sub-menu{
+    background-color: #1E90FF	;
+    /* padding: 10px;
+    margin: 10px; */
+    display: block;   
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+
+    font-size: 12px;
+}
+.section .menu span:hover .sub-menu ul{
+    display: block;
+    margin:10px ;
+
+
+}
+.section .menu span:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    list-style: none;
+    text-align: left;
+}
+.sub-menu2{
+    display: none;
+}
+.hover-me:hover .sub-menu2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 160px;
+    background-color: white;
+}
+
+.fa-angle-right{
+    float: right;
+}
+
+.logo{
+    margin-top: 18px;
+    flex: 1;
+    align-items: left;
+}
+.menu{
+    flex: 3;
+    display: inline-flex;
+    padding: 15px;
+    align-items: right;
+}
+.menu span{
+    margin: 20px;
+}
+.menu > .active{
+    background-color: #1E90FF	;
+    padding: 10px;
+    margin: 10px;
+    border-radius:30px;
+}
+.menu span:hover{
+    background-color: #1E90FF	;
+    padding: 10px;
+    margin: 10px;
+    border-radius:30px;
+
+}
+
+.slider img {
+    width: 100%;
+    max-width: 100%;
+}
+.slider {
+    text-align: center;
+    color: #1E90FF;
+}
+.marquee{
+    text-align: center;
+    
+}
+.marquee > marquee{
+    width: 90%;
+    background-color:#1E90FF ;
+    color: green;
+    padding: 10px;
+}
+
+section{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #f7f2f2;
+    padding-bottom: 20px;
+}
+section > h1 {
+    font-size: 34px;
+    font-weight: bolder;
+}
+section .content {
+    margin:100px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+section .content p{
+    margin-top: 30px;
+    color: #666666;
+    visibility: visible;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.9;
+    font-size: 14px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.section > i {
+    display: none;
+}
+
+
+.counters{
+    background-color: #316DC3;
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    height: auto;
+  
+    flex-direction: row;
+}
+
+.counters > .child1, .child2,.child3,.child4{
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 50px
+}
+.counters > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.our-serves{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding-top: 60px;
+    min-width: 250px;
+}
+.our-serves > h1 ,div{
+    text-align: center;
+}
+ 
+.working{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #f5f5f5;
+}
+.box {
+    min-width:30%;
+    box-shadow: 5px 7px 10px 3px #cecaca;
+    margin: 10px;
+    color:#316DC3;
+    text-align: center;
+    margin-top: 30px;
+    height: 150px;
+    padding-top: 40px;
+    
+}
+.misson-services{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    margin:20px
+}
+.mission h3{
+    color: #316DC3;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    
+}
+.missions{
+    margin-top: 20px;
+}
+.mission{
+    flex: 2;
+}
+.service{
+    flex: 1;
+}
+.service h3{
+    color: #316DC3;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.service p{
+    margin:20px;
+    display: flex;
+    flex-basis: 300px;
+    height: 250px;
+}
+.missions{
+    display: flex;
+    flex-wrap: wrap;
+    color: #316DC3;;
+}
+.mission-boxes{
+    box-shadow: 1px 2px 4px #3f423f;
+    margin: 20px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.images-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.images-gallery img {
+    min-width: 160px;
+    width: 200px;
+    height: 180px;
+    transition: ease-in-out 2s;
+}
+.images-gallery img:hover {
+    opacity: 0.4;
+}
+
+.gallery > i {
+    position: relative;
+    top: -50%;
+    right: 50% ;
+    transform: translate(-50%,50%);
+    clear: both;
+    color:#1E90FF;
+    opacity: 0.7;
+    transition: ease-in 2s;
+}
+
+.gallery > i:hover{
+    opacity: 1;
+}
+
+.brand{
+    background-color: #1E90FF !important;
+    max-width: 100%;
+    text-align: left;
+    padding:20px
+}
+
+
+.above-footer{
+    display: flex;
+    margin-top: 70px;
+    background-color: rgb(37,39,46);
+    color: white;
+    /* height: 290px; */
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 50px 50px 30px 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.useful-links{
+    margin: 0 auto;
+}
+.connect-with-us h5{
+    font-size: 17px;
+}
+.useful-links h5{
+    font-size: 17px;
+}
+.connect-with-us i{ 
+    
+background-color: #000088;
+}
+
+.footer{
+    background-color: royalblue;
+    color: white;
+    height: 40px;
+}
+.footer p{
+    font-size: 12px;
+    padding: 10px 2px 4px 90px;
+}
